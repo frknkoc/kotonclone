@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+:root{
+    --border:.1px solid rgba(255,255,255,.3);
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    transition: .2s linear;
+}
+
+html::-webkit-scrollbar{
+    width: 10px;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: rgb(207, 207, 207);
+    border-radius: 5rem;
+}
+
+
+.headerlink:hover{
+    color: rgb(70, 70, 70);
+    border-width: 60%;
+    border-bottom: 1px solid rgb(70, 70, 70);
+}
+
+.kotonlogo{
+    margin-left: 40px;
+}
+
+.yasamasaygiimg{
+    text-align: center;
+    margin-top: 7px; 
+    margin-left: 8px; 
+    width: 40%;
+}
+
+@media (max-width:1440px){
+    .headerlink{
+        font-size: 16px;
+    }
+
+    .yasamasaygiimg{
+        width: 50%;
+    }
+    
+}
+
+
+@media (max-width:991px){
+    .kotonlogo{
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .headerlink{
+        font-size: 18px;
+        margin-left: 20px;
+    }
+
+    .headerlink:hover{
+        border-bottom: none;
+    }
+    
+
+    .yasamasaygiimg{
+        width: 20%;
+        margin-top: 0px; 
+        margin-left: 20px; 
+        }
+}
+
+
+@media (max-width:768px){
+    .kotonlogo{
+        width: 80%;
+        margin-left: 15px;
+    }
+
+    .headerlink{
+        font-size: 14px;
+        margin-left: 15px;
+    }
+
+    .yasamasaygiimg{
+        width: 20%;
+        margin-left: 15px; 
+        }
+}
+
+@media (max-width:450px){
+    .kotonlogo{
+        width: 60%;
+        margin-left: 10px;
+    }
+
+    .headerlink{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .yasamasaygiimg{
+        width: 18%;
+        margin-left: 10px; 
+        }
+
+}
+
